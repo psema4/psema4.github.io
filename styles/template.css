@@ -1,0 +1,25 @@
+body { font-size: 12pt; color: #111; padding: 1em; font-family: Verdana, Geneva, sans-serif; }
+h1 { font-size: 46pt; text-transform: lowercase; margin: 0px 0px 10px 0px; }
+h2 { font-size: 18pt; text-transform: uppercase; }
+h3 { font-size: 16pt; text-transform: uppercase; margin: 0px 0px 0px 0px; }
+h4 { font-size: 14pt; text-transform: none; margin: 0px 0px 0px 0px; }
+
+#header h1 { padding: 0px; color: #3a803f; }
+#header h1 span.secondary { color: #aaa; }
+
+a, a:active, a:visited { color: #111; text-decoration: none; }
+a:hover { color: #11f; text-decoration: underline; }
+
+h1.firstname { text-align: right; color: #111; }
+h1.lastname { text-align: left; color: #3a803f; }
+
+#info .contact ul { display: inline-block; }
+#info .contact ul li { display: inline-block; }
+
+.icon { display: inline-block; width: 24px; height: 24px; margin-bottom: -2px; margin-right: 0.5em; }
+.icon-phone { color: #3a803f; font-size: 1.5em; }
+.icon-gmail { fill: #D14836; background-image: url(../icons/gmail.svg); }
+.icon-github { fill: #181717; background-image: url(../icons/github.svg); }
+.icon-linkedin { fill: #0077B5; background-image: url(../icons/linkedin.svg); }
+.icon-stackoverflow { fill: #FE7A16; background-image: url(../icons/stackoverflow.svg); }
+.icon-twitter { fill: #1DA1F2; background-image: url(../icons/twitter.svg); }

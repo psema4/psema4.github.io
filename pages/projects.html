@@ -1,48 +1,71 @@
 <!doctype html>
-<html lang="en">
+<html>
     <head>
         <title>psema4.github.io</title>
         <link rel="stylesheet" href="/styles/app.css" />
+        <link rel="stylesheet" href="/styles/template.css" />
     </head>
 
     <body>
-        <h1>psema4.github.io</h1>
+        <table id="page" width="100%" cellspacing="0">
+            <tr>
+                <table id="header" width="100%" cellspacing="0">
+                    <tr>
+                        <td width="75%" valign="bottom"><h1>psema4<span class="secondary">.github.io</span></h1></td>
+                        <td width="25%" valign="center" align="right">
+                            <span class="icon icon-github"></span><a class="github" href="https://github.com/psema4"></a>
+                            <span class="icon icon-twitter"></span><a class="twitter" href="https://twitter.com/psema4"></a>
+                            <span class="icon icon-stackoverflow"></span><a class="stackoverflow" href="https://stackoverflow.com/users/773209/psema4"></a>
+                            <span class="icon icon-linkedin"></span><a class="linkedin" href="https://www.linkedin.com/in/psema4"></a>
+                        </td>
+                    </tr>
+                </table>
+            </tr>
 
-        <div class="nav">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/pages/projects.html" class="current-page">Projects</a></li>
-                <li><a href="/pages/about.html">About</a></li>
-            </ul>
-        </div>
-
-        <div class="content">
-            <h2>Projects</h2>
-
-            <h3>Experimental Single Page Applications</h3>
-            <ul>
-                <li><a href="/pages/projects/atomos.html">Atomic OS</a>: A single-page web-based operating environment</li>
-                <li><a href="/pages/projects/atomve.html">Atomic VE</a>: Simple drag and drop wep-page designer</li>
-            </ul>
-
-            <h3>Games</h3>
-            <ul>
-                <li><a href="/pages/projects/pine.html">Pine</a>: Turn the Raspberry Pi into a web-based gaming console</li>
-                <li><a href="/pages/projects/dimension-n.html">Dimension-N</a>: Simplified multiplayer games using npm for distribution</li>
-                <li><a href="/pages/projects/outbrk.html">Outbrk</a>: A microjs framework for js13k games</li>
-                <li><a href="/pages/projects/lost.html">Lost</a>: A basic roguelike for js13k</li>
-                <li><a href="/pages/projects/scroller-builder.html">Scroller Builder</a>: Create top-down scrollers</li>
-                <li><a href="/pages/projects/tic-tac-toe.html">Tic-Tac-Toe (OUYA)</a>: Basic browser-based game for the OUYA console</li>
-            </ul>
-
-            <h3>Tools &amp; Tests</h3>
-            <ul>
-                <li><a href="/pages/projects/node-refserver.html">node-refserver</a>: Basic Express.js + Socket.io server</li>
-                <li><a href="/pages/projects/asphault.html">asphault</a>: A test repo for the Concrete CI server</li>
-                <li><a href="/pages/projects/jsdog.html">JSDog</a>: Basic JSDoc parser</li>
-                <li><a href="/pages/projects/spritefast.html">spritefast</a>: Simple CSS Sprites</li>
-            </ul>
-        </div>
+            <tr>
+                <td>
+                    <div class="nav">
+                        <ul>
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="/pages/projects.html" class="current-page">Projects</a></li>
+                            <li><a href="/pages/about.html">About</a></li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <div class="content">
+                        <h2>Projects</h2>
+            
+                        <h4>Experimental Single Page Applications</h4>
+                        <ul>
+                            <li><a href="/pages/projects/atomos.html">Atomic OS</a>: A single-page web-based operating environment</li>
+                            <li><a href="/pages/projects/atomve.html">Atomic VE</a>: Simple drag and drop wep-page designer</li>
+                        </ul>
+            
+                        <h4>Games</h4>
+                        <ul>
+                            <li><a href="/pages/projects/pine.html">Pine</a>: Turn the Raspberry Pi into a web-based gaming console</li>
+                            <li><a href="/pages/projects/dimension-n.html">Dimension-N</a>: Simplified multiplayer games using npm for distribution</li>
+                            <li><a href="/pages/projects/outbrk.html">Outbrk</a>: A microjs framework for js13k games</li>
+                            <li><a href="/pages/projects/lost.html">Lost</a>: A basic roguelike for js13k</li>
+                            <li><a href="/pages/projects/scroller-builder.html">Scroller Builder</a>: Create top-down scrollers</li>
+                            <li><a href="/pages/projects/tic-tac-toe.html">Tic-Tac-Toe (OUYA)</a>: Basic browser-based game for the OUYA console</li>
+                        </ul>
+            
+                        <h4>Tools &amp; Tests</h4>
+                        <ul>
+                            <li><a href="/pages/projects/node-refserver.html">node-refserver</a>: Basic Express.js + Socket.io server</li>
+                            <li><a href="/pages/projects/asphault.html">asphault</a>: A test repo for the Concrete CI server</li>
+                            <li><a href="/pages/projects/jsdog.html">JSDog</a>: Basic JSDoc parser</li>
+                            <li><a href="/pages/projects/spritefast.html">spritefast</a>: Simple CSS Sprites</li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
 
         <script src="/scripts/app.js"></script>
     </body>

@@ -8,8 +8,6 @@ body {
 h1 {
     margin: 0px;
     padding-left: 0.5em;
-    color: #fff;
-    background-color: #000;
 }
 
 p {
@@ -18,6 +16,7 @@ p {
 
 .nav ul {
     display: inline-block;
+    margin: 0px;
     padding: 0px;
     list-style: none;
 }
@@ -41,16 +40,31 @@ a:hover {
 }
 
 .nav {
-    background-color: #aaa;
+    background-color: #ccf;
     padding-left: 1em;
+    border-radius: 5px;
 }
 
 .nav a {
-    background-color: #ddd;
+    color: #aaa !important;
+    background-color: #ccf;
+    padding: 0.25em;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #111 !important;
+    text-decoration: none;
 }
 
 .nav a.current-page {
+    color: #111 !important;
     background-color: #aaf;
+}
+
+.nav a.current-page:hover {
+    color: #eef !important;
 }
 
 .content {
