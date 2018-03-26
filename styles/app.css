@@ -16,6 +16,47 @@ p {
     margin: 0.25em 0.5em 0.25em 0.5em;
 }
 
+.nav ul {
+    display: inline-block;
+    padding: 0px;
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+a, a:active, a:visited {
+    color: #000;
+    padding: 0.25em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00f;
+    padding: 0.25em;
+    text-decoration: none;
+}
+
+.nav {
+    background-color: #aaa;
+    padding-left: 1em;
+}
+
+.nav a {
+    background-color: #ddd;
+}
+
+.nav a.current-page {
+    background-color: #aaf;
+}
+
+.content {
+    margin-left: 1em;
+}
+
 .center {
     text-align: center;
 }
