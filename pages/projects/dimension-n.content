@@ -1,0 +1,26 @@
+<h4>About</h4>
+    <p>Dimension-N is a proof-of-concept strategy for packaging, distributing &amp; hosting multiplayer web games as npm packages.</p>
+    <p>Dimension-N provides a multiplayer client-server framework without proscribing the use of any particular game engines or libraries.</p>
+    <p>Dimension-N allows game developers to focus on the game, instead of building infrastructure.</p>
+    <p><a href="/pages/projects/dn-game-alpha">Alpha</a> is currently the only available game module for Dimension-N; while not a "playable" demo, it does demonstrate how to interface with the Dimension-N server and integrate with the auto-generated game website.</p>
+
+    <p>Dimension-N is inspired in-part by <a href="/pages/projects/pine.html">Pine</a>, and is a Node Knockout 2016 entry.</p>
+<br/>
+
+<h4>Requirements</h4>
+<ul>
+    <li>Serve a single page application that hosts the game window, any game marketing material and some site-wide functionality like logging in or out</li>
+    <li>Serve REST endpoints that describe the currently installed game</li>
+    <li>Provide a base communications channel to proxy web socket messages between the game module\'s server and client components</li>
+    <li>Create a game module encompassing both server-side and client-side components</li>
+    <li>Serve game assets (images, audio, libraries, etc) stored within the game module</li>
+</ul>
+<br/>
+
+
+<h4>See Also</h4>
+<ul>
+    <li>Reference game module: <a href="https://github.com/psema4/dn-game-alpha">dn-game-alpha</a></li>
+</ul>
+
+<div class="pageControl" data-title="TITLE" data-count="2"></div>
