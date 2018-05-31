@@ -82,6 +82,7 @@ ul.unstyled {
 .summary {
     display: inline-block;
     min-width: 200px;
+	margin-bottom: 1em;
 }
 
 .summary ul {
@@ -126,6 +127,24 @@ ul.unstyled {
 
 .pageControl {
     display: none;
+}
+
+#container {
+	display: flex;
+}
+
+#index {
+	display: inline-block;
+	flex: 1;
+}
+
+#content {
+	display: inline-block;
+	flex: 3;
+}
+
+#content h2:first-of-type {
+	margin-top: 0px;
 }
 
 @media screen {
